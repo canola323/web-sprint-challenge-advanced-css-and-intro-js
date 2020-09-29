@@ -240,7 +240,7 @@ function get20s(array){
 
   const get20sArray = []
   for(let i = 0; i < array.length; i++){
-    const years = array[i].year.split("-")
+    const years = array[i].years.split("-")
     const born = parseInt(years[0])
     const died = parseInt(years[1])
     if(born >= 1900 && died <= 2000){
